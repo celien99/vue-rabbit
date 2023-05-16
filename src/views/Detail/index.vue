@@ -52,7 +52,7 @@ const countChange = (count) => {
             <div class="goods-info">
               <div class="media">
                 <!-- 图片预览区 -->
-                <XtxImageView :image-list="goods.mainPictures" />
+                <XtxImageView :imageList="goods.mainPictures" />
                 <!-- 统计数量 -->
                 <ul class="goods-sales">
                   <li>
